@@ -16,21 +16,21 @@ Once open, you can use this tool's interface in the same manner as other Photosh
 
 ## Features
 
-### Flatten Layers
-
-This function is designed to flatten all Groups with the correct suffixes.
-
-1. Ensure that all groups have been created as outlined in the PSD setup guide. In short:
-   - Individual assets should be self contained inside of a group with the suffix '_MERGE', which then sits inside the relevant parent group.
-   - Full screen sprites should be in a group with the suffix '_SWIPE'. 
-
-2. If step 1 is confirmed, press 'Flatten Layers' in the panel.
-
 ### Create Masks
 
 This function is designed to loop through all groups in the file and apply a layer mask set to the position of the pixel data. This ensures that further edits to this file cannot increase the layer sizes accidentally.
 
 1. Once the file is ready, simply click on 'Create Masks' to loop through all groups and create layer masks based on pixel data.
+
+### Flatten Layers
+
+This function is designed to flatten all Groups with the correct suffixes.
+
+1. Ensure that all layers have been set up correctly:
+   - Individual assets should be self contained inside of a group with the suffix '_MERGE', which then sits inside the relevant parent group.
+   - Full screen sprites should be in a group with the suffix '_SWIPE'. 
+
+2. If step 1 is confirmed, press 'Flatten Layers' in the panel.
 
 ### Export File
 
