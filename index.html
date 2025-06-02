@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="index.js"></script>
+  </head>
+  <style>
+    body {
+      color: white;
+      padding: 0 16px;
+      min-width: 250px;
+      background-color: var(--uxp-host-background-color);
+      color: var(--uxp-host-text-color);
+      border-color: var(--uxp-host-border-color);
+      font-size: var(--uxp-host-font-size);
+    }
+    .wrapper {
+      padding: 0 16px;
+      width: 100%;
+      position: absolute;
+      overflow-y: scroll;
+
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .subHeader {
+      text-align: center;
+      padding: 2px;
+    }
+    sp-textfield {
+      padding: 5px;
+      width: 250px;
+    }
+    sp-button {
+      display: flex;
+      margin: 5px;
+      text-align: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <sp-heading class="subHeader">PSD Exporter</sp-heading>
+      <sp-divider size="medium"></sp-divider>
+      <sp-button class="button" id="createMasks">Create Masks</sp-button>
+      <sp-button class="button" id="flattenGroups">Flatten Groups</sp-button>
+      <sp-button class="button" id="exportFile">Export File</sp-button>
+    </div>
+  </body>
+</html>
