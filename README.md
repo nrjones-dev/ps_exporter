@@ -1,4 +1,4 @@
-# PS: PSD Exporter
+# PSD Exporter
 
 ## What is it?
 This plugin is designed to loop through all layers in the document searching for Groups with the suffixes '_MERGE' or '_SWIPE'. If found, it flattens the relevant Group. Once all layers are flattened, it can then be used to export the file at the preset resolution. Optional functionality to add layer Masks to ensure layers don't increase in size when edited.
