@@ -1,66 +1,66 @@
 {
-  "manifestVersion": 5,
-  "id": "nrj.psd-exporter",
-  "name": "PSD Exporter",
-  "version": "1.2.0",
-  "main": "index.html",
-  "author": "Nathan Jones",
-  "description": "A plugin to flatten Area PSD groups based on suffix and export final file.",
-  "host": {
-    "app": "PS",
-    "minVersion": "23.3.0",
-    "data": {
-      "apiVersion": 2,
-      "loadEvent": "use"
-    }
-  },
-  "icons": [
-    {
-      "width": 23,
-      "height": 23,
-      "path": "icons/icon.png",
-      "scale": [1, 2],
-      "theme": ["darkest", "dark", "light", "lightest", "all"]
-    }
-  ],
-  "entrypoints": [
-    {
-      "type": "panel",
-      "id": "nrj.psd-exporter",
-      "label": {
-        "default": "Area PSD Exporter"
-      },
-      "minimumSize": {
-        "width": 200,
-        "height": 180
-      },
-      "maximumSize": {
-        "width": 200,
-        "height": 180
-      },
-      "preferredDockedSize": {
-        "width": 200,
-        "height": 180
-      },
-      "preferredFloatingSize": {
-        "width": 200,
-        "height": 180
-      },
-      "icons": [
-        {
-          "width": 23,
-          "height": 23,
-          "path": "icons/icon.png",
-          "scale": [1, 2],
-          "theme": ["darkest", "dark", "light", "lightest", "all"]
-        }
-      ]
-    }
-  ],
-  "requiredPermissions": {
-    "localFileSystem": "request"
-  },
-  "featureFlags": {
-    "enableAlerts": true
-  }
+	"manifestVersion": 5,
+	"id": "nrj.psd-exporter",
+	"name": "PSD Exporter",
+	"version": "1.3.0",
+	"main": "index.html",
+	"author": "Nathan Jones",
+	"description": "A plugin to flatten Area PSD groups based on suffix and export final file.",
+	"host": {
+		"app": "PS",
+		"minVersion": "23.3.0",
+		"data": {
+			"apiVersion": 2,
+			"loadEvent": "use"
+		}
+	},
+	"icons": [
+		{
+			"width": 23,
+			"height": 23,
+			"path": "icons/icon.png",
+			"scale": [1, 2],
+			"theme": ["darkest", "dark", "light", "lightest", "all"]
+		}
+	],
+	"entrypoints": [
+		{
+			"type": "panel",
+			"id": "nrj.psd-exporter",
+			"label": {
+				"default": "Area PSD Exporter"
+			},
+			"minimumSize": {
+				"width": 200,
+				"height": 180
+			},
+			"maximumSize": {
+				"width": 200,
+				"height": 180
+			},
+			"preferredDockedSize": {
+				"width": 200,
+				"height": 180
+			},
+			"preferredFloatingSize": {
+				"width": 200,
+				"height": 180
+			},
+			"icons": [
+				{
+					"width": 23,
+					"height": 23,
+					"path": "icons/icon.png",
+					"scale": [1, 2],
+					"theme": ["darkest", "dark", "light", "lightest", "all"]
+				}
+			]
+		}
+	],
+	"requiredPermissions": {
+		"localFileSystem": "request"
+	},
+	"featureFlags": {
+		"enableAlerts": true
+	}
 }
